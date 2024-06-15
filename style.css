@@ -5,16 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-
 }
 
 body {
-    /*overflow: hidden;*/
-    /*background-color: #DB019B;*/
-    /*background: linear-gradient(135deg, #FF80AB, #f49fad);*/
     background-color: whitesmoke;
     background-size: 400% 400%;
-    /*animation: gradientBG 15s ease infinite;*/
     color: #fff;
     overflow-x: hidden;
 }
@@ -41,7 +36,6 @@ ul {
 
 .logo {
     color: #DB019B;
-    /*color: white;*/
     background: transparent;
     font-size: 22px;
     transition: transform 0.3s ease;
@@ -55,7 +49,6 @@ ul {
 .in a {
     background: transparent;
     color: black;
-    /*color: white;*/
     border: 1px solid #f5dca8;
     padding: 9px 20px;
     border-radius: 30px;
@@ -80,12 +73,10 @@ ul {
     border: 1px solid white;
     color: black;
     background-color: #DB019B;
-    /*background: white;*/
     transition: 0.4s;
     text-decoration: none;
     pointer-events: painted;
 }
-
 
 .content {
     width: 100%;
@@ -96,7 +87,6 @@ ul {
     text-align: center;
     margin: 50px;
     color: #DB019B;
-    /*color: #fff;*/
     animation: fadeIn 2s ease-out;
 }
 
@@ -146,7 +136,6 @@ a button {
 
 span {
     background-color: #DB019B;
-    /*background: white;*/
     color: black;
     height: 100%;
     width: 0;
@@ -166,7 +155,6 @@ a button:hover {
     border: none;
 }
 
-
 .gallery {
     display: flex;
     flex-direction: column;
@@ -178,13 +166,13 @@ a button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 2000px; /* Adjust max-width as needed */
-    gap: 20px; /* Adjust gap between items */
+    max-width: 2000px;
+    gap: 20px;
 }
 
 .gallery-item {
-    width: 300px; /* Adjust width as needed */
-    height: 300px; /* Adjust height as needed */
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -195,8 +183,7 @@ a button:hover {
     transform: scale(1.05);
 }
 
-
-.preparing{
+.preparing {
     color: black;
     display: flex;
     flex-direction: column;
@@ -204,32 +191,27 @@ a button:hover {
     background-color: #FFAEBC;
 }
 
-
-
-/**/
-
-
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 12px;
-  }
-  
-  .radio-tile-group {
+}
+
+.radio-tile-group {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  
-  .input-container {
+}
+
+.input-container {
     position: relative;
     height: 9.3rem;
     width: 9.3rem;
     margin: 0.5rem;
-  }
-  
-  .input-container input {
+}
+
+.input-container input {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -237,9 +219,9 @@ a button:hover {
     cursor: pointer;
     z-index: 2;
     opacity: 0;
-  }
-  
-  .input-container .radio-tile {
+}
+
+.input-container .radio-tile {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -248,71 +230,68 @@ a button:hover {
     border: 2px solid brown;
     border-radius: 8px;
     transition: all 300ms ease;
-  }
-  
-  .input-container img {
+}
+
+.input-container img {
     color: brown;
     font-size: 3rem;
-  }
-  
-  .input-container label {
-    color:brown;
+}
+
+.input-container label {
+    color: brown;
     font-size: 0.80rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
-  }
-  
-  input:checked+.radio-tile {
+}
+
+input:checked + .radio-tile {
     background-color: brown;
     box-shadow: 0 0 12px brown;
     transform: scale(1.1);
-  }
-  
-  input:hover+.radio-tile {
+}
+
+input:hover + .radio-tile {
     box-shadow: 0 0 12px brown;
-  }
-  
-  input:checked+.radio-tile img,
-  input:checked+.radio-tile label {
+}
+
+input:checked + .radio-tile img,
+input:checked + .radio-tile label {
     color: white;
-  }
+}
 
-
-.title{
+.title {
     color: #DB019B;
     text-align: center;
     margin: 20px;
 }
 
-.part{
-    width:150px;
+.part {
+    width: 150px;
     height: 100px;
 }
 
-
-/*size*/
 .container2 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 12px;
-  }
+}
 
-.group{
+.group {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
+}
 
-  .input-container2 {
+.input-container2 {
     position: relative;
     height: 12rem;
     width: 12rem;
     margin: 0.8rem;
-  }
-  
-  .input-container2 input {
+}
+
+.input-container2 input {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -320,8 +299,9 @@ a button:hover {
     cursor: pointer;
     z-index: 2;
     opacity: 0;
-  }
-  .input-container2 .tile2 {
+}
+
+.input-container2 .tile2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -330,28 +310,27 @@ a button:hover {
     border: 2px solid black;
     border-radius: 8px;
     transition: all 300ms ease;
-  }
+}
 
-  .input-container2 label {
-    color:black;
+.input-container2 label {
+    color: black;
     font-size: 1.2rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
-  }
+}
 
-
-  input:checked+.tile2 {
+input:checked + .tile2 {
     background-color: rgba(245, 245, 245, 0.589);
-    box-shadow: 0 0 12px  rgba(245, 245, 245, 0.589);;
+    box-shadow: 0 0 12px rgba(245, 245, 245, 0.589);
     transform: scale(1.1);
-  }
+}
 
-  form{
+form {
     background-color: #FFAEBC;
-  }
-/**/
-  .sen {
+}
+
+.sen {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -360,18 +339,18 @@ a button:hover {
 
 .sen input[type="text"] {
     padding: 10px;
-    border: 2px solid #DB019B; 
+    border: 2px solid #DB019B;
     border-radius: 5px;
     margin-right: 10px;
     font-size: 16px;
-    outline: none; 
+    outline: none;
 }
 
 .sen input[type="submit"] {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #DB019B; 
+    background-color: #DB019B;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -379,9 +358,93 @@ a button:hover {
 }
 
 .sen input[type="submit"]:hover {
-    background-color: #FF80AB; 
+    background-color: #FF80AB;
 }
 
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .navBar {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
 
+    .in {
+        margin-left: 0;
+    }
+
+    .in a {
+        margin: 10px 0;
+    }
+
+    .content h1 {
+        font-size: 50px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+
+    a button {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .gallery-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navBar {
+        padding: 10px;
+    }
+
+    .content h1 {
+        font-size: 40px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    a button {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .gallery-item {
+        width: 100%;
+    }
+
+    .radio-tile-group, .group {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .content h1 {
+        font-size: 30px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    a button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .input-container, .input-container2 {
+        height: 7rem;
+        width: 7rem;
+    }
+
+    .input-container label, .input-container2 label {
+        font-size: 0.7rem;
+    }
+}
 
 
